@@ -1,0 +1,11 @@
+% Autor:
+% Fecha: 01/12/2018
+
+list_sum([],0).
+
+list_sum([Head|Tail], TotalSum):- list_sum(Tail, Sum1),
+                                  TotalSum is 2*Head+Sum1.
+
+
+    
+    
